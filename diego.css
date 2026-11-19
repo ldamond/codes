@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora:ital,wght@1,400&family=Montserrat:wght@500&display=swap');
 
-.f-diego-box {
+.f-diego {
   --c: #8c70a9;
   width: 300px;
   height: 250px;
@@ -16,12 +16,13 @@
 .f-diego-bg {
   position: absolute;
   inset: 0;
+  background-image: url('https://2img.net/i.imgur.com/UcnZg1B.png');
   background-size: cover;
   background-position: center;
   transition: transform 0.7s ease, filter 0.5s ease;
 }
 
-.f-diego-box:hover .f-diego-bg {
+.f-diego:hover .f-diego-bg {
   transform: scale(1.08);
   filter: brightness(0.58) blur(1.5px);
 }
@@ -33,6 +34,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   opacity: 0;
   transform: scale(0.95);
@@ -41,7 +43,7 @@
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
 }
 
-.f-diego-box:hover .f-diego-hov {
+.f-diego:hover .f-diego-hov {
   opacity: 1;
   transform: scale(1);
 }
@@ -57,8 +59,9 @@
 .f-diego-tit {
   font: 600 18px 'Cinzel', serif;
   letter-spacing: 1.5px;
-  color: var(--c);
+  color: #a486c2;
   text-transform: uppercase;
+  text-shadow: 0 0 8px rgba(140, 112, 169, 0.6), 0 0 16px rgba(140, 112, 169, 0.45);
 }
 
 .f-diego-linea {
@@ -69,11 +72,14 @@
   margin: 7px 0 12px;
   color: var(--c);
   font-size: 12px;
+  width: 100%;
+  text-shadow: 0 0 8px rgba(140, 112, 169, 0.65);
 }
 
 .f-diego-linea::before,
 .f-diego-linea::after {
   content: "";
+  display: block;
   height: 1px;
   width: 50px;
   background: linear-gradient(90deg, transparent, var(--c), transparent);
