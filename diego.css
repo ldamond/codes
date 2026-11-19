@@ -46,7 +46,7 @@
   transform: scale(1);
 }
 
-.f-diego-hov span {
+.f-diego-sub {
   font: 500 8px 'Montserrat', sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -79,7 +79,7 @@
   background: linear-gradient(90deg, transparent, var(--c), transparent);
 }
 
-.f-diego-hov p {
+.f-diego-txt {
   margin: 0;
   padding-left: 11px;
   border-left: 2px solid var(--c);
