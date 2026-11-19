@@ -16,7 +16,8 @@
 .f-ed-bg {
   position: absolute;
   inset: 0;
-  background: url('https://2img.net/i.imgur.com/1maTWqX.gif') center/cover;
+  background-size: cover;
+  background-position: center;
   transition: transform 0.8s ease, filter 0.5s ease;
 }
 
