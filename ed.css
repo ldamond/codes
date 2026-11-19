@@ -9,7 +9,7 @@
   overflow: hidden;
   border-radius: 2px;
   background: #161115;
-  border: 1.5px solid var(--c);
+  border: 2px solid var(--c);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.38);
 }
 
